@@ -1,0 +1,2 @@
+GET / @controllers.InjectedApplication.index()
+GET /noninjected controllers.NonInjectedApplication.index()
